@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/styles.css">
+    <script type="application/javascript" src="../../public/js/API.js"></script>
+    <title>Countries info</title>
+</head>
+
+<body onload="countries()">
+    <header>
+
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="../../public/img/logo.png" width="320" height="200">
+                <div class="box">
+                    <label for="list"> Lista de paises </label>
+                    <select name="list" id="list-select">
+                    </select>
+                </div>
+                <button type="button" class="clear" role="button" id="clear">Limpiar</button>
+            </div>
+            <div class="grid-item">
+                <label for="country"> Pais </label>
+                <input type="text" name="country" id="country" disabled>
+                <label for="country_info"> Información </label>
+                <textarea type="text" name="country_info" id="country_info" disabled></textarea>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
