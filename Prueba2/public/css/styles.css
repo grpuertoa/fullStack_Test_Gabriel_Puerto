@@ -35,9 +35,10 @@ input[type=text] {
   }
 
 label{
-    display: block; /* add this */
-    padding-top: 5px;
+    display: block;
+    padding-top: 15px;
 } 
+
 
 .generate {
   background-color: #daa95f;
