@@ -26,7 +26,7 @@ async function countries() {
                         const latestPopulation = population[population.length - 1];
                         if (selectedCountryData) {
                             countryInput.value = selectedCountryData.country;
-                            infoTextArea.value = `Código ISO 3166-1 alfa-3: ${selectedCountryData.iso3} Población más reciente: \tAño: ${latestPopulation.year} \tPoblación: ${latestPopulation.value}`;
+                            infoTextArea.value = `Código ISO 3166-1 \nalfa-3: ${selectedCountryData.iso3} \nPoblación más reciente año: ${latestPopulation.year} \nPoblación: ${latestPopulation.value}`;
                         }
                     });
 
